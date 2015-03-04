@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
         testObject.saveInBackground();
         */
 
-
     }
     public void showprefs(View v){
         Intent i = new Intent(this, firstprefactivity.class);
