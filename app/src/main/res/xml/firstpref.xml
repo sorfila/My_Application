@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+ <PreferenceCategory
+     android:title="Select your Technology">
+     <CheckBoxPreference
+         android:key="techjava"
+         android:title="Java News"
+         android:summary="Here you see Java News"
+         android:defaultValue="true"/>
+
+     <CheckBoxPreference
+         android:key="techphp"
+         android:title="PHP News"
+         android:summary="Here you see PHP news"/>
+
+ </PreferenceCategory>
+
+ <PreferenceCategory
+     android:title="Set the no of News">
+     <EditTextPreference
+         android:key="nokey"
+         android:title="Enter de No."
+         android:summary="This is the no of news">
+     </EditTextPreference>
+ </PreferenceCategory>
+ <PreferenceCategory
+     android:title="Select you ringtone">
+     <RingtonePreference
+         android:key="ringkey"
+         android:title="Select your ringtone man"
+         android:summary="Choose a good one">
+     </RingtonePreference>
+ </PreferenceCategory>
+
+</PreferenceScreen>
